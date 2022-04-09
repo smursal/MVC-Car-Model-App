@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orangered;
+}
+
+div {
+  background-color: bisque;
+  min-height: 50vh;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+p {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  text-size-adjust: 11;
+}
+section {
+  color: aqua;
+  text-decoration-line: underline;
+  padding: 0;
+  margin: 0;
+}
+
+.testing {
+  counter-set: nav;
+  color: aqua;
+  padding: 35px;
+  text-decoration: 0;
+  list-style-type: 0;
+  margin: 0;
+  text-align: center;
+  height: 40vh;
+}
+a {
+  display: inline;
+}
+
+a:hover {
+  background-color: orangered;
+}
